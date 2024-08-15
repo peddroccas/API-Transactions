@@ -2,7 +2,6 @@
   "name": "nodejs",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {"node": "21.x"},
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
